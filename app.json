@@ -9,7 +9,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#1ba5e7"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -23,11 +23,18 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "backgroundColor": "#1ba5e7"
+      },
+      "package": "com.apritest.productapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "26f8114a-be6d-48df-aef7-4677585dad31"
+      },
+      "apiUrl": "https://dummyjson.com/"
     }
   }
 }
